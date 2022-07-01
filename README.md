@@ -14,4 +14,15 @@ The [OpenId](https://openid.net/developers/specs/) allows access to google auth2
  The google allow creation of consoles and tests API for simple applications
  
 Read the [DOCUMENTATION](https://developers.google.com/identity/protocols/oauth2#2.-obtain-an-access-token-from-the-google-authorization-server.) to learng about.
- 
+
+## Data
+
+After logging in, we received as a response to the request a sequence of data such as name, profile picture, email, etc.
+
+![](https://i.imgur.com/0npgR7x.png)
+
+it is possible to know more in https://developers.google.com/identity/protocols/oauth2/openid-connect
+
+
+
+
