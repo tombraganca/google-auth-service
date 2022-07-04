@@ -2,5 +2,15 @@
   <div class="container">name: {{userInfo?.info?.name}}</div>
   <div class="container">name: {{userInfo?.info?.email}}</div>
   <div class="container"><img src="{{userInfo?.info?.picture}}"> {{userInfo?.info?.picture}} </div>
+
+  <div class="container">
+    <button (click)="getEmails()">List Emails</button>
+  </div>
+
+
+  <div class="container" *ngFor="let snippet of mailSnippets">
+    {{snippet}}
+  </div>
+
   <div class="container"><button (click)="logOut()">Logout from google</button></div>
 </main>
